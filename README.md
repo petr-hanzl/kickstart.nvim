@@ -1,5 +1,18 @@
 # kickstart.nvim
 
+## Own installation
+git clone https://github.com/petr-hanzl/kickstart.nvim ~/.config/nvim
+cd ~/.config/nvim
+mkdir ../tmux
+mv tmux.conf ../tmux/
+
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+
+Install nerdfonts
+https://github.com/ryanoasis/nerd-fonts
+
 ## Introduction
 
 A starting point for Neovim that is:
